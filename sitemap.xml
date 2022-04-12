@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://octopipe.github.io/posts/getting-started/</loc>
+<lastmod>2022-04-11T20:31:58+00:00</lastmod>
+</url>
+<url>
+<loc>https://octopipe.github.io/categories/</loc>
+<lastmod>2022-04-12T03:10:32+00:00</lastmod>
+</url>
+<url>
+<loc>https://octopipe.github.io/tags/</loc>
+<lastmod>2022-04-12T03:10:32+00:00</lastmod>
+</url>
+<url>
+<loc>https://octopipe.github.io/archives/</loc>
+<lastmod>2022-04-12T03:10:32+00:00</lastmod>
+</url>
+<url>
+<loc>https://octopipe.github.io/about/</loc>
+<lastmod>2022-04-12T03:10:32+00:00</lastmod>
+</url>
+<url>
+<loc>https://octopipe.github.io/</loc>
+</url>
+<url>
+<loc>https://octopipe.github.io/tags/algorithm-analysis/</loc>
+</url>
+</urlset>
