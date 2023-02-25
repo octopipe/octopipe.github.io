@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Octopipe',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Octopipe provides solutions to help create applications and processes with a focus on cloud native applications and distributed systems.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -68,14 +68,14 @@ const config = {
         title: 'Octopipe',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Projects',
           },
           {
             href: 'https://octopipe.github.io/blog',
@@ -83,7 +83,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/octopipe',
             label: 'GitHub',
             position: 'right',
           },
@@ -96,7 +96,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Projects',
                 to: '/docs/intro',
               },
             ],
@@ -104,10 +104,6 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
               {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
@@ -122,17 +118,17 @@ const config = {
             title: 'More',
             items: [
               {
+                href: 'https://octopipe.github.io/blog',
                 label: 'Blog',
-                to: '/blog',
               },
               {
+                href: 'https://github.com/octopipe',
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Octopipe, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
