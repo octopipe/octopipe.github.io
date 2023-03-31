@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkoctopipe_github_io=self.webpackChunkoctopipe_github_io||[]).push([[704],{8925:e=>{e.exports=JSON.parse('{"title":"Raft","slug":"/category/raft","permalink":"/docs/category/raft","navigation":{"previous":{"title":"Overview","permalink":"/docs/libraries/overview"},"next":{"title":"Overview","permalink":"/docs/libraries/raft/overview"}}}')}}]);
