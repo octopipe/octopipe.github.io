@@ -72,11 +72,15 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
             position: 'left',
             label: 'Projects',
-          },
+            href: '/docs/projects/overview'
+          },          
+          {
+            position: 'left',
+            label: 'Libraries',
+            href: '/docs/libraries/overview'
+          },          
           {
             href: 'https://octopipe.github.io/blog',
             label: 'Blog',
@@ -97,7 +101,11 @@ const config = {
             items: [
               {
                 label: 'Projects',
-                to: '/docs/intro',
+                to: '/docs/projects/overview',
+              },
+              {
+                label: 'Libraries',
+                to: '/docs/libraries/overview',
               },
             ],
           },
