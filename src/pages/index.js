@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--primary button--lg"
-            to="/docs/projects/overview">
+            to="/docs/docs">
             See all projects
           </Link>
         </div>
@@ -34,7 +34,30 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        
+        <div style={{
+          textAlign: "center",
+          background: "var(--ifm-color-primary-darker)",
+          color: "#fff",
+          padding: "40px"
+        }}>
+          <h1>About us</h1>
+          <p>
+            Octopipe is an organization dedicated to solving infrastructure problems in multi-cloud environments and distributed systems. Our mission is to simplify<br/>
+            and optimize the management of complex infrastructures, aiming to benefit the community and promote equitable access to advanced technological solutions.<br/>
+            We strive to deliver customized and innovative solutions to the challenges organizations face in multi-cloud environments and distributed systems, working<br/>
+            closely with our partners and communities.
+          </p>
+        </div>
+        <div style={{
+          textAlign: "center",
+          background: "var(--hero-bg)",
+          color: "#fff",
+          padding: "40px"
+        }}>
+          <h1>What's next?</h1>
+          <HomepageFeatures />
+        </div>
       </main>
     </Layout>
   );

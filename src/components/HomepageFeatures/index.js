@@ -4,42 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Use our libraries',
-    imgSrc: require('@site/static/img/library.png').default,
+    to: 'https://join.slack.com/t/octopipe/shared_invite/zt-1ytyml2d0-kJQq9TxUkrD1RulXJrbpzw',
+    title: 'Talk to us',
+    imgSrc: require('@site/static/img/slack.png').default,
     description: (
       <>
-        Use our libraries to build cloud native applications or distributed 
-        applications.
+        Learning more, speaking to other contributors, <br/> or finding answers
       </>
     ),
   },
   {
-    title: 'Use our applications',
-    imgSrc: require('@site/static/img/distributed-icon.png').default,
+    to: 'https://github.com/octopipe',
+    title: 'Contributions',
+    imgSrc: require('@site/static/img/github.png').default,
     description: (
       <>
-        Use our applications to build resilient and fast distributed systems
+        New contributors are always welcome
       </>
     ),
   },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+  
 ];
 
-function Feature({imgSrc, Svg, title, description}) {
+function Feature({imgSrc, Svg, title, to, description}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
+    <div className={clsx('col col--6')}>
+      <a href={to} target="_blank" className="text--center">
         {imgSrc && imgSrc !== "" ? <img className={styles.featureSvg} src={imgSrc} /> : <Svg className={styles.featureSvg} role="img" />}
-      </div>
+      </a>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>

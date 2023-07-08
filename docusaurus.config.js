@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Octopipe',
-  tagline: 'Octopipe provides solutions to help create applications and processes with a focus on cloud native applications and distributed systems.',
+  tagline: 'Octopipe provides solutions to help manage infrastructures in a multi-cloud environment and build resilient and scalable distributed systems.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -74,13 +74,17 @@ const config = {
           {
             position: 'left',
             label: 'Projects',
-            href: '/docs/projects/overview'
-          },          
-          {
-            position: 'left',
-            label: 'Libraries',
-            href: '/docs/libraries/overview'
-          },          
+            items: [
+              {
+                label: 'Cloudx',
+                href: 'https://cloudx.readthedocs.io/en/latest/'
+              },
+              {
+                label: 'Circlerr',
+                href: 'https://circlerr.readthedocs.io/en/latest/'
+              }
+            ]
+          },     
           {
             href: 'https://octopipe.github.io/blog',
             label: 'Blog',
@@ -100,12 +104,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Projects',
-                to: '/docs/projects/overview',
-              },
-              {
-                label: 'Libraries',
-                to: '/docs/libraries/overview',
+                label: 'Overview',
+                to: '/docs/docs',
               },
             ],
           },
@@ -113,12 +113,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Slack',
+                href: 'https://join.slack.com/t/octopipe/shared_invite/zt-1ytyml2d0-kJQq9TxUkrD1RulXJrbpzw',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Github',
+                href: 'https://github.com/octopipe',
               },
             ],
           },
